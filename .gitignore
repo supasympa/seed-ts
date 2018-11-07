@@ -143,5 +143,5 @@ lib
 
 # packages
 target
-
 .idea
+/coverage/
