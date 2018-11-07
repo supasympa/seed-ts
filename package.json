@@ -4,7 +4,8 @@
   "description": "An starting point for Typescript projects",
   "main": "index.ts",
   "scripts": {
-    "test": "test"
+    "test": "mocha --opts ./mocha.opts ./spec/**/*.spec.ts",
+    "clean-install": "rm -rf ./node_modules && npm i"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,7 @@
   "homepage": "https://github.com/supasympa/seed-ts#readme",
   "devDependencies": {
     "@types/aws-lambda": "8.10.15",
-    "@types/chai": "^4.1.7",
+    "@types/chai": "4.1.7",
     "@types/chai-as-promised": "7.1.0",
     "@types/mocha": "5.2.5",
     "chai": "4.2.0",
