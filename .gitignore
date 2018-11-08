@@ -145,3 +145,6 @@ lib
 target
 .idea
 /coverage/
+/PRIVATE.md
+/.env.json
+/lambda.config.json

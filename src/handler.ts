@@ -4,5 +4,5 @@ export const handler: Handler = async (
     event: any,
     context: Context,
 ) => {
-    return `Hello World!`;
+    return `Hello From Aws Lambda!`;
 };
