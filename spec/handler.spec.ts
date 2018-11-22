@@ -6,6 +6,6 @@ describe('A handler', () => {
     it('should work', () => {
         const fakeEvent = {};
 
-        return expect(handler(fakeEvent, mockLambdaContext(), () => void(0))).to.eventually.equal('Hello World!');
+        return expect(handler(fakeEvent, mockLambdaContext(), () => void(0))).to.eventually.equal('Hello From Aws Lambda!');
     });
 });
