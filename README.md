@@ -9,4 +9,8 @@ The repository contains scripts and npm aliases for:
 
 To run the scripts you'll need a working AWS account and you'll need to speciy a KMS key.
 
-More to follow. 
+More to follow.
+
+## Start an interactive Docker shell
+
+docker-compose run --rm app /bin/bash  
